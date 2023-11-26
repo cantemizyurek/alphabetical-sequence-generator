@@ -2,13 +2,23 @@
   "name": "alphabetical-sequence-generator",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "vitest"
   },
-  "keywords": [],
-  "author": "can temizyurek",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cantemizyurek/alphabatical-sequence-generator"
+  },
+  "keywords": [
+    "alphabetical",
+    "sequence",
+    "generator",
+    "letters",
+    "utility"
+  ],
+  "author": "Can Temizyurek",
+  "license": "MIT",
   "devDependencies": {
     "vitest": "^0.34.6"
   }
