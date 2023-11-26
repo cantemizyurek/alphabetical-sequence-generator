@@ -1,4 +1,4 @@
-const letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+const alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 /**
  * Generates an alphabetical sequence.
@@ -6,7 +6,6 @@ const letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
  */
 export default function alphabeticalSequenceGenerator() {
   let index = -1
-  const alphabet = letters.split('')
 
   function next() {
     index++
